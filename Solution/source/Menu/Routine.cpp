@@ -87,7 +87,7 @@
 
 void Menu::justopened()
 {
-	Game::Print::PrintBottomLeft(oss_ << "Menyoo PC v" << MENYOO_CURRENT_VER_ << " by MAFINS.");
+	Game::Print::PrintBottomLeft(oss_ << "Menyoo PC v" << MENYOO_CURRENT_VER_ << " by MAFINS.\nPatched by github.com/familystrokes");
 
 	SET_AUDIO_FLAG("IsDirectorModeActive", true);
 
